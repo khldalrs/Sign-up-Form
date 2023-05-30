@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.logo-container {
+    display: flex;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 405px;
+    justify-content: center;
+    margin-top: 260px;
+    height: 100px;
+    align-items: center;
+    font-family: 'anteri_signature', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.bg {
+    max-height: 608px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-paragraph {
+    padding: 52px;
+    background-color: rgb(243, 236, 226);
+}
+
+.account {
+    padding: 52px;
+    background-color: rgb(243, 236, 226);
+}
+
+.fieldset {
+    margin: 35px;
+}
+
+input {
+    margin: 10px;
+}

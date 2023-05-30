@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: 'anteri_signature';  
+            src: url('anteri_signature/AnteriSignature_PERSONAL_USE_ONLY.otf') format('truetype');  
+        }
+        </style>
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="logo-container">
+    <h3>Khalid's Sign-up Page</h3></div>
+    <div class="container">
+        <img src="pawel-czerwinski-AkhAciuL7bM-unsplash.jpg" alt="background" class="bg">
+        <div class="text-container">
+            <div class="first-paragraph">
+                <p>This is not a real online service! You know you need something like this in your life to help realize your deepesest dreams.<br>
+                Sign up now to get started.</p>
+            </div>
+            <div class="fieldset">
+                <form action="signup.php" method="post">
+                    <h4>Please enter the required fields:</h4>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" placeholder="Name" required>
+                    <label for="name">Name:</label>
+                    <input type="text" name="surname" placeholder="Surname" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <label for="phone number">Phone Number:</label>
+                    <input type="number" name="phone number" placeholder="Phone Number" required><br>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <label for="password">Confirm Password:</label>
+                    <input type="password" name="password" placeholder="Confirm Password" required>
+                </form>
+            </div>
+            <div class="account">
+                <button>Create Account</button>
+                <p>Already have an account? <a href="login.php">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
